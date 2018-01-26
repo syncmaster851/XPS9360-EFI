@@ -10,7 +10,7 @@ Replaced the Wifi Card with DW1560 (BCM94352z)
 
 ## DUAL OS
 Windows 10
-High Sierra 10.13.2
+High Sierra 10.13.3
 Boot loader - Clover
 
 ## Credit
