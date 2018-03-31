@@ -2,24 +2,30 @@
 
 ## install iasl
 
+```bash
 $cd ~/Downloads
 $curl --remote-name --progress-bar --location https://bitbucket.org/RehabMan/acpica/downloads/iasl.zip
 $unzip iasl.zip
 $sudo cp iasl /usr/bin
 $sudo chmod 755 /usr/bin/iasl
+```
 
 ## Pull code
 
+```bash
 $mkdir ~/Projects
 $cd ~/Projects
 $git clone https://github.com/RehabMan/HP-ProBook-4x30s-DSDT-Patch probook.git
 $cd ~/Projects
 $git clone https://github.com/RehabMan/OS-X-Clover-Laptop-Config.git guide.git
+```
 
 ## Compile code
 
+```
 $cd ~/Projects/guide.git
 $make
+```
 
 ## Apply
 
@@ -44,6 +50,8 @@ $make
 
 ## Fix permission
 
+```bash
 $sudo kextcache -i /
+```
 
 ## Reboot
