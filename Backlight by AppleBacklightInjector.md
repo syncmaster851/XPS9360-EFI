@@ -29,10 +29,14 @@ $make
 
 ## Apply
 
-1.~/Projects/guide.git/build/SSDT-PNLF.aml
+1. ~/Projects/guide.git/build/SSDT-PNLF.aml
+
    Copy it EFI/CLOVER/ACPI/patched
+   
 2. ~/Projects/probook.git/kexts/AppleBacklightInjector.kext
+
    Copy it to /Library/Extensions/
+   
 3. Edit EFI/CLOVER/config.list, section /KernelAndKextPatches/KextsToPatch
 
 ```xml
