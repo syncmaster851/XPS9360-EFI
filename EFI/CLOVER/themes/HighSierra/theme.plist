@@ -12,7 +12,7 @@
 		<array>
 			<dict>
 				<key>DistanceFromScreenEdgeX%</key>
-				<integer>43</integer>
+				<integer>46</integer>
 				<key>DistanceFromScreenEdgeY%</key>
 				<integer>20</integer>
 				<key>FrameTime</key>
