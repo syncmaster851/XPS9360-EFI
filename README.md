@@ -1,3 +1,6 @@
+## Before you start, make sure you read through below:
+https://github.com/the-darkvoid/XPS9360-macOS
+
 ## XPS9360-EFI
 My XPS 9360 EFI
 
@@ -12,6 +15,3 @@ Replaced the Wifi Card with DW1560 (BCM94352z)
 Windows 10
 High Sierra 10.13.4
 Boot loader - Clover
-
-## Credit
-https://github.com/the-darkvoid/XPS9360-macOS
