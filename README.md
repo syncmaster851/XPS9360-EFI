@@ -1,5 +1,43 @@
 ## Before you start, make sure you read through below:
+
+# Update bios follow up 
+- Sata: AHCI
+- Enable SMART Reporting
+- Disable thunderbolt boot and pre-boot support
+- USB security level: disabled
+- Enable USB powershare
+- Enable Unobtrusive mode
+- Disable SD card reader (saves 0.5W of power)
+- TPM Off
+- Deactivate Computrace
+- Enable CPU XD
+- Disable Secure Boot
+- Disable Intel SGX
+- Enable Multi Core Support
+- Enable Speedstep
+- Enable C-States
+- Enable TurboBoost
+- Enable HyperThread
+- Disable Wake on USB-C Dell Dock
+- Battery charge profile: Standard
+- Numlock Enable
+- FN-lock mode: Disable/Standard
+- Fastboot: minimal
+- BIOS POST Time: 0s
+- Enable VT
+- Disable VT-D
+- Wireless switch OFF for Wifi and BT
+- Enable Wireless Wifi and BT
+- Allow BIOS Downgrade
+- Allow BIOS Recovery from HD, disable Auto-recovery
+- Auto-OS recovery threshold: OFF
+- SupportAssist OS Recovery: OFF
+
+# Boot from DVMT.efi, Update UEFI Variables refer:
 https://github.com/the-darkvoid/XPS9360-macOS
+
+# or 
+https://github.com/hoanX/xps13-9360-i7-7560u
 
 ## XPS9360-EFI
 My XPS 9360 EFI
