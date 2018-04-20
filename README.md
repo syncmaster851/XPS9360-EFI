@@ -1,6 +1,6 @@
 ## Before you start, make sure you read through below:
 
-# Update bios follow up 
+### Update bios follow up 
 - Sata: AHCI
 - Enable SMART Reporting
 - Disable thunderbolt boot and pre-boot support
@@ -33,21 +33,21 @@
 - Auto-OS recovery threshold: OFF
 - SupportAssist OS Recovery: OFF
 
-# Boot from DVMT.efi, Update UEFI Variables refer:
+### Boot from DVMT.efi, Update UEFI Variables refer:
 https://github.com/the-darkvoid/XPS9360-macOS
 
-# or 
+### or 
 https://github.com/hoanX/xps13-9360-i7-7560u
 
 ## XPS9360-EFI
 My XPS 9360 EFI
 
 ## Hardware
-XPS 9360, i7 7500U, 16G Memory, 512 Toshiba SSD, QHD+ Touch Screen, BIOS 2.3.1
+XPS 9360, i7 7500U, 16G Memory, 512 Toshiba SSD, QHD+ Touch Screen, BIOS 2.6.2
 Replaced the Wifi Card with DW1560 (BCM94352z)
 
 ## Clover Version
-4411
+4439
 
 ## DUAL OS
 Windows 10
